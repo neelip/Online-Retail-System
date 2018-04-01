@@ -1,0 +1,89 @@
+html{
+	position:fixed;
+	height: 100%;
+width:100%;
+}
+
+.icon {
+    font-family: 'Pictos';
+    font-size: 22px:
+}
+
+.basket:before {
+    content: "$";
+}
+body{
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/0/00/Sunset_Reeds,_North_Shore_Port_Lincoln_-_South_Australia.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+   
+	
+}
+.form-signin label{
+	width: 50px;
+}
+
+.sr-only{
+	width:100px;
+}
+.info{
+	position: absolute;
+	top:22%;
+	left:36%;  
+
+    width: 800px;
+    height: 100px;
+  
+}
+.info .container h1{
+ color:white;
+ font-size: 48;
+font-family: "Times", serif;
+}
+
+.info .container h2{
+	color:white;
+	font-size: 36;
+	font-family: "Times", serif;
+}
+.info .extra{
+	position: relative;
+	top: 10%;
+	left: 2%;
+}
+.info .signup{
+	color:orange;
+}
+.info .forget{
+	color:orange;
+}
+
+
+.button-blue {
+	color:white;
+	background-color:#ff7400;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px #FF7400;
+	border-radius: .5em;
+	box-shadow: 0 1px 2px #FF7400;
+}
+.button-blue:hover {
+	color: blue;
+}
+.button-blue:active {
+	position: relative;
+	top: 1px;
+}
+	
+
+

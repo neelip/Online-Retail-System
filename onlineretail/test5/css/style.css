@@ -1,0 +1,238 @@
+a {color: #48577D; text-decoration: none;} 
+
+a:hover {text-decoration: underline;} 
+  
+h1, h2 {margin-bottom: 15px} 
+  
+h1 {font-size: 18px;} 
+h2 {font-size: 16px} 
+    #main table { 
+            width: 480px; 
+        } 
+          
+            #main table th { 
+                padding: 10px; 
+                background-color: #48577D; 
+                color: #fff; 
+                text-align: left; 
+            } 
+              
+            #main table td { 
+                padding: 5px; 
+            } 
+            #main table tr { 
+                background-color: #d3dcf2; 
+            }      
+body { 
+    font-family: Verdana; 
+    font-size: 12px; 
+    color: #444; 
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/0/00/Sunset_Reeds,_North_Shore_Port_Lincoln_-_South_Australia.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+} 
+  
+  
+#container { 
+    width: 700px; 
+    margin: 150px auto; 
+     background-color: #eee; 
+    overflow: hidden; /* Set overflow: hidden to clear the floats on #main and #sidebar */
+    padding: 15px; 
+} 
+  
+    #main { 
+        width: 490px; 
+        float: left; 
+    } 
+  
+    #sidebar { 
+        width: 200px; 
+        float: left; 
+    }
+.profile #logout{
+	position: absolute;
+    left: 920px;
+    top: 120px;
+    z-index: -1;
+    background-color:orange;
+    width: 60px;
+    height: 25px;
+    text-align:center;
+   border:1px solid black;
+    vertical-align: middle;
+line-height: 25px; 
+	overflow: hidden;
+border-radius:5px;
+	
+}
+.profile #orders{
+	position: absolute;
+    left: 790px;
+    top: 120px;
+    z-index: -1;
+    background-color:orange;
+    width: 118px;
+    height: 25px;
+    text-align:center;
+   border:1px solid black;
+    vertical-align: middle;
+line-height: 25px; 
+	overflow: hidden;
+border-radius:5px;
+	
+}
+.profile #myprofile{
+	position: absolute;
+    border-radius:5px;
+    left: 300px;
+    top: 120px;
+    z-index: -1;
+    background-color:orange;
+    width: 118px;
+    height: 25px;
+    text-align:center;
+   border:1px solid black;
+    vertical-align: middle;
+line-height: 25px; 
+	overflow: hidden;
+	
+}
+
+.profile #products{
+position: absolute;
+    border-radius:5px;
+    left: 424px;
+    top: 120px;
+    z-index: -1;
+    background-color:orange;
+    width: 110px;
+    height: 25px;
+    text-align:center;
+   border:1px solid black;
+    vertical-align: middle;
+line-height: 25px; 
+	overflow: hidden;
+}
+
+#special{
+	background-color:black;
+}
+
+
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.container-4 input#search{
+  width: 300px;
+  height: 50px;
+  background: #7B85AE;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.container-4 input#search::-webkit-input-placeholder {
+   color: black;
+}
+ 
+.container-4 input#search:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+ 
+.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+ 
+.container-4 input#search:-ms-input-placeholder {  
+   color: black;  
+}
+.container-4 button.icon{
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+  border: none;
+  background: #515D91;
+  height: 50px;
+  width: 50px;
+  color: #515D91;
+  opacity: 0;
+  font-size: 10pt;
+ 
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+  }
+ 
+  .container-4:hover button.icon:hover{
+    background: white;
+  }
+#mainTitle {
+	color: white;
+	position: absolute;
+	top: 10%;
+	left:40%;
+
+ 
+
+}
+#mainTitle h1 {
+	font-size:40px;
+	color:white;
+	font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+@font-face {
+    font-family: 'FranchiseRegular';
+    src: url('fonts/franchise-bold-webfont.eot');
+    src: url('fonts/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/franchise-bold-webfont.woff') format('woff'),
+         url('fonts/franchise-bold-webfont.ttf') format('truetype'),
+         url('fonts/franchise-bold-webfont.svg#FranchiseRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#tocart{
+	border-radius: 10px;
+	background-color: orange;
+}
+#tocart a{
+	text-decoration: none;
+}
+#checkoutbtn{
+	position: relative;
+	top: 30px;
+}
+#carttable{
+	border: 1px solid #172457;
+	width: 100%;
+}
+#carttable td{
+	text-align: center;
+}
+#carttable #titletable td{
+	border: 1px solid #172457;
+}
