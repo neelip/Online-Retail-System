@@ -31,7 +31,29 @@ Setting up MySQL
 2. Database name: retailpurchase (dump sql file has the accurate name)
 
 
-
+<dl style="margin-top: 0.2em; margin-bottom: 0.5em; color: rgb(34, 34, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+  <dt style="font-weight: bold; margin-bottom: 0.1em;">Presentational markup</dt>
+  <dd style="margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;">The kind of markup used by traditional word-processing systems: binary codes embedded within document text that produce the&nbsp;
+    <a href="https://en.wikipedia.org/wiki/WYSIWYG" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="WYSIWYG">WYSIWYG</a> ("<strong>what you see is what you get</strong>") effect. Such a markup is usually hidden from the human users, even the authors and the editors. Properly speaking, such systems use procedural and/or descriptive markup underneath, but convert it to "present" to the user as geometric arrangements type.</dd>
+</dl>
+<dl style="margin-top: 0.2em; margin-bottom: 0.5em; color: rgb(34, 34, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+  <dt style="font-weight: bold; margin-bottom: 0.1em;">Procedural markup</dt>
+  <dd style="margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;">Markup is embedded in text, which then provides instructions for programs to process the text. Well-known examples include&nbsp;
+    <a href="https://en.wikipedia.org/wiki/Troff" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="Troff">troff</a>,&nbsp;
+    <a href="https://en.wikipedia.org/wiki/TeX" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="TeX">TeX</a>, and&nbsp;
+    <a href="https://en.wikipedia.org/wiki/PostScript" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="PostScript">PostScript</a>. It is expected that the processor will run through the text from beginning to end, following the instructions as encountered. Text with such markups is often edited with the markups visible and directly manipulated by the author. Popular procedural-markup systems usually include programming constructs so macros or subroutines can be defined and invoked by name.
+  </dd>
+</dl>
+<dl style="margin-top: 0.2em; margin-bottom: 0.5em; color: rgb(34, 34, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;">
+  <dt style="font-weight: bold; margin-bottom: 0.1em;">Descriptive markup</dt>
+  <dd style="margin-left: 1.6em; margin-bottom: 0.1em; margin-right: 0px;">Markup is used to label parts of the document rather than to provide specific instructions as to how they should be processed. Well-known examples include&nbsp;
+    <a href="https://en.wikipedia.org/wiki/LaTeX" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="LaTeX">LaTeX</a>,&nbsp;
+    <a href="https://en.wikipedia.org/wiki/HTML" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="HTML">HTML</a>, and&nbsp;
+    <a href="https://en.wikipedia.org/wiki/XML" style="text-decoration: none; color: rgb(11, 0, 128); background: none;" title="XML">XML</a>. The objective is to decouple the inherent structure of the document from any particular treatment or rendition of it. Such markups are often described as "semantic". An example of a descriptive markup would be HTML's&nbsp;
+    <code style="font-family: monospace, monospace; color: rgb(0, 0, 0); background-color: rgb(248, 249, 250); border: 1px solid rgb(234, 236, 240); border-radius: 2px; padding: 1px 4px;">&lt;cite&gt;</code> tag, which is used to label a citation. Descriptive markup — sometimes called&nbsp;<em>logical markup</em> or&nbsp;<em>conceptual markup</em> — encourages authors to write in a way that describes the material conceptually, rather than visually.<sup class="reference" style="line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-weight: normal; font-style: normal; font-size: 11.2px;">
+      <a href="https://en.wikipedia.org/wiki/Markup_language#cite_note-8" style="text-decoration: none; color: rgb(11, 0, 128); background: none;">[8]</a>
+    </sup></dd>
+</dl>
 
 
 
